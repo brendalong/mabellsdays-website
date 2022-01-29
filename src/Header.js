@@ -21,10 +21,10 @@ export const Header = () => {
                     <Container className="storebuttons">
                         <div className="d-grid gap-2">
                             <div>
-                                <Image src={require(`./images/mabellsdays-icon.png`)} width="72" height="72" alt="Mabell's Day Icon" /> <br />
+                                <img src={require(`./images/mabellsdays-icon.png`)} width="72" height="72" alt="Mabell's Day Icon" /> <br />
                                 Mabell's Days is Available Now
                             </div>
-                            <Button variant="primary" size="lg" onClick={() => window.location.href = 'https://apps.apple.com/us/app/mabells-zoo-interactive-counting/id712415904?ign-mpt=uo%3D4'}>
+                            <Button variant="primary" size="lg" onClick={() => window.location.href='https://apps.apple.com/us/app/mabells-days/id1441676774'}>
                                 The App Store
                             </Button>
                             {/* <Button variant="primary" size="lg">
