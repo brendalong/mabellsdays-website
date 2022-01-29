@@ -14,7 +14,7 @@ export const Header = () => {
             <Row>
                 <Col sm={12} md={8}>
                     <h1>What did you do today?</h1>
-                    <h1>Mabell's Days is an interactive storybook that sparks the imagination with colorful illustrations, movement, and musical sounds.</h1>
+                    <p>Mabell's Days is an interactive storybook that sparks the imagination with colorful illustrations, movement, and musical sounds.</p>
 
                 </Col>
                 <Col sm={12} md={4}>
@@ -41,16 +41,19 @@ export const Header = () => {
             </Row>
             <Row>
                 <Col>
-                    <ul className="bodycopy">
-                        <li><span>Created for children 5 years old and younger.</span> Mabell's Zoo is easy to use and includes musical sounds, animals, vivid colors, and a large play area.</li>
-                        <li><span>Use all your fingers.</span> An app designed for the device and includes multi-touch activities.</li>
-                        <li><span>Intuitive</span> enough for young children to play alone or enjoy with family and friends.</li>
-
-                        <li><span>Fresh, beautiful artwork</span> handcrafted from crumpled painted coffee filters. </li>
-                        <li><span>Inspired by childhood activities:</span> blowing bubbles, tidily winks, and swinging mobiles. Each view has unique characteristics and employs physics for continuous discovery.</li>
-                        <li><span>Number association.</span> Toddlers can learn numbers and animal names: "9 penguins slip and slide on ice".</li>
-                        <li><span>Variety of musical sounds</span> and instruments (and we worked hard to create an environment that always sounds good).</li>
-                        <li><span>Older children (and adults)</span> will enjoy figuring out the physics of each view: Can you bat a bird from the elephant trunk? How many monkeys will hook together? Will the balls stack on a seal's nose? What tune can you play with the fish?</li>
+                    <h2>Features</h2>
+                    <ul>
+                        <li>Imagine taking a rocket ship to the moon and meeting a moontian with a lost balloon, sailing a ship across the water or finding a rainbow.</li>
+                        <li>Created for children 5 years old and younger. Mabell's Days is easy to use and includes musical
+                            sounds, vivid colors, and a large play area.</li>
+                        <li>Use all your fingers. An app designed for the device capable of multi-touch activities.</li>
+                        <li>Easy for young children to play alone or enjoy with family and friends.</li>
+                        <li>Encourages 'days' of the week association with a song at the end.</li>
+                        <li>Variety of musical sounds and instruments (and we worked hard to create an environment that sounds good).</li>
+                        <li>Handcrafted, beautiful artwork.</li>
+                        <li>Inspired by story telling - &ldquo;Let's talk about our days.&rdquo;</li>
+                        <li>Employs physics for continuous discovery and creativity.</li>
+                        <li>Older children (and adults) enjoy the visuals and physics of each view.</li>
                     </ul>
                 </Col>
             </Row>
